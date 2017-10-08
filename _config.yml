@@ -1,0 +1,15 @@
+title: "时间流数据"
+description: "记录真实的世界"
+url: 
+baseurl: ""
+author: "Bliky"
+watch: true
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
