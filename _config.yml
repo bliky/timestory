@@ -3,7 +3,14 @@ description: "记录真实的世界"
 url: 
 baseurl: ""
 author: "Bliky"
-watch: true
+
+port: 4001
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude:
   - package.json

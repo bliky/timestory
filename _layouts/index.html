@@ -21,8 +21,9 @@
       {% for post in site.posts %}
         <li>
           <span class="event-meta">{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
+          <span class="event-meta">{{ post.when }}</span>
           <h2>
-            <a class="event-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <a class="event-link" href="{{ post.url | relative_url | uri_escape }}">{{ post.title | escape }}</a>
           </h2>
         </li>
       {% endfor %}
