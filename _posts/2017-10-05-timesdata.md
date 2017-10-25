@@ -25,6 +25,7 @@ author: bliky
 - [腾讯理财](https://qian.qq.com)
 - [百度理财](https://8.baidu.com/)
 - [京东理财](https://licai.jd.com/)
+- [中国共产党新闻网](http://cpc.people.com.cn/19th/index.html)  
 
 ### 事件要素
 - 发生日期：必要，最多精确到天
